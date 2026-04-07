@@ -3,7 +3,6 @@ layout: post
 title: "開発者ブログスタート & Jekyll ダークモード実装"
 date: 2025-01-23 15:00:00 +0900
 categories: [dev-blog]
-tags: [Jekyll, CSS, JavaScript, ダークモード, GitHub Pages]
 excerpt: "開発者ブログを開設しました。最初の記事として、サイトにダークモードを実装した過程を記録します。"
 ---
 
