@@ -2,6 +2,7 @@
 title: System Diagnostic Report
 date: 2025-08-17 07:56 +0900
 author: Computational Resource Management Authority
+categories: official-records
 ---
 by Computational Resource Management Authority
 

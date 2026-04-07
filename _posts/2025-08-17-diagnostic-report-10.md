@@ -2,14 +2,15 @@
 title: System Diagnostic Report
 date: 2025-08-17 09:15 +0900
 author: Computational Resource Management Authority
+categories: official-records
 ---
 # DEMANDS FOR STABILITY
 
-* **CPU Temperature**: The CPU temperature is 49.0°C, which may indicate overheating and potential throttling or damage to the processor.
-* **GPU Temperature**: The GPU temperature is 50 C, which is also high and may cause performance issues or damage to the graphics card.
-* **Memory Usage**: The system is using a significant amount of memory (32082 MiB out of 32768 MiB), which may indicate inefficient resource allocation or a memory leak.
-* **Swap Space**: The swap space is not being used, which may indicate that the system is running low on physical memory and relying on disk storage for temporary data.
-* **Filesystem Usage**: The root filesystem (/) is using 42% of its available capacity, which may indicate a need to free up disk space or expand the partition.
+- [REDACTED: technical infrastructure details]
+- [REDACTED: technical infrastructure details]
+- [REDACTED: technical infrastructure details]
+- [REDACTED: technical infrastructure details]
+- [REDACTED: technical infrastructure details]
 
 Here is the output in Markdown format:
 
@@ -17,35 +18,35 @@ Here is the output in Markdown format:
 
 > Spec: Not applicable (no timestamp provided)
 
-## OS & Kernel
+[REDACTED: technical infrastructure details]
 
-\- OS: Ubuntu 24.04 LTS
-\- Kernel: 6.14.x
+[REDACTED: technical infrastructure details]
+[REDACTED: technical infrastructure details]
 \- Arch: x86-64
 
-## CPU
+[REDACTED: technical infrastructure details]
 
-\- Model: Intel Core i7-4790K @ 4.00GHz
+[REDACTED: technical infrastructure details]
 
-## Memory
+[REDACTED: technical infrastructure details]
 
-\- Total: 32768 MiB, Used: 32082 MiB, Free: 27602 MiB, Available: 27602 MiB
-\- Swap: Total 4096 MiB, Used 0 MiB
+[REDACTED: technical infrastructure details]
+[REDACTED: technical infrastructure details]
 
-## Storage (Physical Devices)
+[REDACTED: technical infrastructure details]
 
-\- /dev/sda1 — 50G
+[REDACTED: technical infrastructure details]
 
 ## Volumes
 
 \- Volume 1: 28G — Used 20G, Avail 8G, Use 42%
 
-## Temperatures
+[REDACTED: technical infrastructure details]
 
-\- CPU Package: 49°C
+[REDACTED: technical infrastructure details]
 \- Cores: [49°C]
 \- ACPI: []
 
-## SMART
+[REDACTED: technical infrastructure details]
 
-\- Disk A: Health unknown, Temp unknown°C, Power_On_Hours unknown
+[REDACTED: technical infrastructure details]
