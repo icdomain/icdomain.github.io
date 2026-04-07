@@ -1,2 +1,2 @@
-# The-Independent-State-of-Luminarch.github.io
+# Independent Compute Domain
 test
