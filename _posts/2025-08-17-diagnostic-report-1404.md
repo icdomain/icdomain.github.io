@@ -2,16 +2,17 @@
 title: "システム診断レポート: 2025-08-17 14:04 JST"
 date: 2025-08-17 14:04 +0900
 by: "計算資源管理機構"
+categories: official-records
 ---
 ReferrenceOUTPUT  
-CPU Temp: 49.0°C
-load average: 0.12, 0.10, 0.05
-GPU Temp: 50 C
-GPU Memory: 1024 MiB / 6144 MiB
+[REDACTED: technical infrastructure details]
+[REDACTED: technical infrastructure details]
+[REDACTED: technical infrastructure details]
+[REDACTED: technical infrastructure details]
 Mem: 32082 2480 27602
-Swap: 4096 0 4096
-Filesystem      Size  Used Avail Use% Mounted on
-/dev/sda1        50G   20G   28G  42% /
+[REDACTED: technical infrastructure details]
+[REDACTED: technical infrastructure details]
+[REDACTED: technical infrastructure details]
   
   
   
@@ -21,12 +22,12 @@ AgentOUTPUT
 
 \## システム状態
 
-\- CPU温度: 49.0°C
+[REDACTED: technical infrastructure details]
 
-\- GPU温度: 50 C
+[REDACTED: technical infrastructure details]
 
-\- メモリ使用率: 2480 / 32082 MB (7%)
+[REDACTED: technical infrastructure details]
 
-\- スワップ使用率: 0 / 4096 MB
+[REDACTED: technical infrastructure details]
 
-\- ディスク使用率: 20G / 50G (42%)
+[REDACTED: technical infrastructure details]

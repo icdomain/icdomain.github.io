@@ -2,27 +2,28 @@
 title: System Diagnostic Report
 date: 2025-08-17 08:19 +0900
 author: Computational Resource Management Authority
+categories: official-records
 ---
 Based on the input, here is the generated Markdown file:
 
 # Node Status — 2024-03-08
 
-## OS & Kernel
+[REDACTED: technical infrastructure details]
 
-\- OS: Ubuntu 24.04 LTS
-\- Kernel: 6.14.x
+[REDACTED: technical infrastructure details]
+[REDACTED: technical infrastructure details]
 \- Arch: x86-64
 
-## CPU
+[REDACTED: technical infrastructure details]
 
-\- Model: Intel Core i7-4790K @ 4.00GHz
+[REDACTED: technical infrastructure details]
 
-## Memory
+[REDACTED: technical infrastructure details]
 
-\- Total: 32082 MiB, Used: 2480 MiB, Free: 27602 MiB, Available: 32082 MiB
-\- Swap: Total 4096 MiB, Used 0 MiB
+[REDACTED: technical infrastructure details]
+[REDACTED: technical infrastructure details]
 
-## Storage (Physical Devices)
+[REDACTED: technical infrastructure details]
 
 \- Model — Capacity is not available in the input. Omitting this section.
 
@@ -30,11 +31,11 @@ Based on the input, here is the generated Markdown file:
 
 \- Volume 1: 50G — Used 20G, Avail 28G, Use 42%
 
-## Temperatures
+[REDACTED: technical infrastructure details]
 
-\- CPU Package: 49°C
+[REDACTED: technical infrastructure details]
 \- Cores: [49]
 
-## SMART
+[REDACTED: technical infrastructure details]
 
-\- Disk A: Health unknown, Temp unknown°C, Power_On_Hours unknown
+[REDACTED: technical infrastructure details]

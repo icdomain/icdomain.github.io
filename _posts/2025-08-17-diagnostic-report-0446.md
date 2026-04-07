@@ -1,17 +1,18 @@
 ---
 title: "システム診断レポート: 2025-08-17 04:46 JST"
 date: 2025-08-17 04:46 +0900
+categories: official-records
 ---
 \---
 
 \## システム状態
 
-\- CPU温度: 49.0°C
+[REDACTED: technical infrastructure details]
 
-\- GPU温度: 50 C
+[REDACTED: technical infrastructure details]
 
-\- メモリ使用率: 2480 / 32082 MB (7%)
+[REDACTED: technical infrastructure details]
 
-\- スワップ使用率: 0 / 4096 MB
+[REDACTED: technical infrastructure details]
 
-\- ディスク使用率: 20G / 50G (42%)
+[REDACTED: technical infrastructure details]

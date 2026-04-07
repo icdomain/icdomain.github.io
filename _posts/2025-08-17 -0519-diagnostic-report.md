@@ -1,15 +1,16 @@
 ---
 title: System Diagnostic Report: 2025-08-17 05:19 JST
 date: 2025-08-17 05:19 +0900
+categories: official-records
 ---
 by Resource Management Authority
 
 ## システム状態
 
-- CPU温度: 49.0°C
-- GPU温度: 50 C
-- メモリ使用率: 2480 / 32082 MB (7.69%)
-- スワップ使用率: 0 / 4096 MB
-- ディスク使用率: 20G / 50G (40%) 
+- [REDACTED: technical infrastructure details]
+- [REDACTED: technical infrastructure details]
+- [REDACTED: technical infrastructure details]
+- [REDACTED: technical infrastructure details]
+- [REDACTED: technical infrastructure details]
 
-備考: システムは正常に動作しているようです。CPUとGPUの温度が高いですが、メモリやスワップの使用率は低いです。ディスクの使用率も比較的低いので、問題ありません。
+[REDACTED: technical infrastructure details]
