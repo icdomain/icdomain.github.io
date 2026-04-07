@@ -2,6 +2,7 @@
 title: Electricity Expense Report
 date: 2025-08-22 15:37 +0900
 author: Computational Resource Management Authority
+categories: official-records
 ---
 ## Chapter I. Report Overview
 - **Start Time**: 2025-08-22T15:37:29.924Z

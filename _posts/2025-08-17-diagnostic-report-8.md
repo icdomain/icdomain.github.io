@@ -2,40 +2,41 @@
 title: System Diagnostic Report
 date: 2025-08-17 09:06 +0900
 author: Computational Resource Management Authority
+categories: official-records
 ---
 Here is the output in Markdown (.md) format:
 
 # Node Status — 2023-02-20
 
-## OS & Kernel
+[REDACTED: technical infrastructure details]
 
-\- OS: Ubuntu 22.04 LTS
-\- Kernel: 6.x
+[REDACTED: technical infrastructure details]
+[REDACTED: technical infrastructure details]
 \- Arch: x86-64
 
-## CPU
+[REDACTED: technical infrastructure details]
 
-\- Model: Intel Core i7-4790K @ 4.00GHz
+[REDACTED: technical infrastructure details]
 
-## Memory
+[REDACTED: technical infrastructure details]
 
-\- Total: 32 GiB, Used: 2.48 GiB, Free: 27.6 GiB, Available: 27.6 GiB
-\- Swap: Total 4 GiB, Used 0
+[REDACTED: technical infrastructure details]
+[REDACTED: technical infrastructure details]
 
-## Storage (Physical Devices)
+[REDACTED: technical infrastructure details]
 
-\- /dev/sda1 — 50G
+[REDACTED: technical infrastructure details]
 
 ## Volumes
 
 \- Volume 1: 28G — Used 20G, Avail 8G, Use 42%
 
-## Temperatures
+[REDACTED: technical infrastructure details]
 
-\- CPU Package: 49°C
+[REDACTED: technical infrastructure details]
 \- Cores: [49]
 \- ACPI: []
 
-## SMART
+[REDACTED: technical infrastructure details]
 
-\- Disk A: Health unknown, Temp unknown°C, Power_On_Hours unknown
+[REDACTED: technical infrastructure details]
