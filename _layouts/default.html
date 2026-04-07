@@ -307,6 +307,12 @@
                        {% if page.url == '/developer-blog/' or (page.layout == 'post' and page.categories contains 'developer-blog') %}class="active"{% endif %}>developer-blog</a>
                     <a href="{{ '/history' | relative_url }}" 
                        {% if page.url == '/history/' %}class="active"{% endif %}>history</a>
+                    <a href="{{ '/tourism' | relative_url }}" 
+                       {% if page.url == '/tourism/' %}class="active"{% endif %}>tourism</a>
+                    <a href="{{ '/official-records' | relative_url }}" 
+                       {% if page.url == '/official-records/' %}class="active"{% endif %}>Official Records</a>
+                    <a href="{{ '/archives' | relative_url }}" 
+                       {% if page.url == '/archives/' %}class="active"{% endif %}>Archives</a>
                 </div>
                 
                 <button id="theme-toggle" class="theme-toggle" aria-label="theme-toggle">
