@@ -1,11 +1,19 @@
 ---
 layout: default
-title: History
-permalink: /history/
+title: ICDの歴史
+description: Independent Compute Domain の沿革と歴史的記録
+permalink: /ja/history/
+lang: ja
+alt_lang_url: /en/history/
+date: 2026-04-08
+last_modified_at: 2026-04-08
+author: founder
 ---
 
-# History of Luminarch
-you can learn about the history of the Luminarch.
+# ICDの歴史
+
+# History of ICD
+you can learn about the history of the ICD.
 
 ## **Project Luminarch Initiation** 
 **August 12, 2025**
@@ -55,10 +63,16 @@ A monarchical system was adopted for the political structure, requiring royal ap
 {% assign history_posts = site.posts | where: "categories", "history" %}
 {% if history_posts.size > 0 %}
 
-## Posts
+## 最新の歴史記事
 
+{% assign history_posts = site.posts | where: "lang", "ja" | sort: "date" | reverse %}
+{% assign count = 0 %}
 {% for post in history_posts %}
-- [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%Y-%m-%d" }}
+  {% if post.categories contains "history" and count < 3 %}
+- [{{ post.title }}]({{ post.url }}) <time>{{ post.date | date: "%Y-%m-%d" }}</time>
+  {{ post.description }}
+    {% assign count = count | plus: 1 %}
+  {% endif %}
 {% endfor %}
 
-{% endif %}
+[歴史記事をすべて見る → アーカイブ](/ja/archives/)
