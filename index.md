@@ -1,18 +1,34 @@
 ---
-layout: default
-title: home
+layout: null
+permalink: /
+sitemap: false
 ---
-
-# Welcome to Independent State Of Luminarch
-Luminarch is a micronation within a computer.
-
-## news
-
-{% assign news_posts = site.posts | where_exp: "post", "post.categories.size == 0" | limit: 5 %}
-{% for post in news_posts %}
-- **{{ post.date | date: "%m/%d" }}** [{{ post.title }}]({{ post.url | relative_url }})
-{% endfor %}
-
-{% if news_posts.size == 0 %}
-There are no announcements at this time.
-{% endif %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Independent Compute Domain</title>
+<link rel="alternate" hreflang="ja" href="https://icdomain.github.io/ja/">
+<link rel="alternate" hreflang="en" href="https://icdomain.github.io/en/">
+<link rel="alternate" hreflang="x-default" href="https://icdomain.github.io/en/">
+<meta name="robots" content="noindex">
+<script>
+(function() {
+  var chosen = null;
+  try { chosen = localStorage.getItem('icd-lang'); } catch(e) {}
+  if (chosen === 'ja' || chosen === 'en') {
+    location.replace('/' + chosen + '/');
+    return;
+  }
+  var lang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
+  var target = lang.indexOf('ja') === 0 ? 'ja' : 'en';
+  location.replace('/' + target + '/');
+})();
+</script>
+</head>
+<body>
+<noscript>
+  <p><a href="/en/">English</a> / <a href="/ja/">日本語</a></p>
+</noscript>
+</body>
+</html>
