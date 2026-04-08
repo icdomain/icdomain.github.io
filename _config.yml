@@ -1,3 +1,6 @@
 title: Independent Compute Domain
 timezone: Etc/UTC
 theme: jekyll-theme-hacker
+
+exclude:
+  - _templates
