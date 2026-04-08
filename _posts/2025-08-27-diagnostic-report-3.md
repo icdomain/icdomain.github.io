@@ -1,9 +1,16 @@
 ---
-title: System Diagnostic Report
-date: 2025-08-27 21:58 +0900
-author: Computational Resource Management Authority
-categories: official-records
+layout: post
+title: Article Title
+description: Article description (max 120 chars)
+permalink: /en/archives/2025/08/27/diagnostic-report-3/
+lang: en
+date: 2025-08-27T00:00:00Z
+last_modified_at: 2025-08-27T00:00:00Z
+author: founder
+categories: [official-records]
+tags: [TAG1, TAG2, TAG3]
 ---
+
 # DEMANDS FOR STABILITY
 
 - [REDACTED: technical infrastructure details]

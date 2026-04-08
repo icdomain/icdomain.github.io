@@ -1,10 +1,14 @@
 ---
 layout: post
-title: "Jekyll + GitHub Pages でダークモード実装：ちらつき防止とユーザー設定保存"
-date: 2025-01-23 15:30:00 +0900
-categories: [developer-blog]
-tags: [Jekyll, CSS, JavaScript, GitHub Pages, ダークモード, UX]
-excerpt: "GitHub Pages + Jekyll でダークモードを実装する際の技術的なポイントと、ちらつき防止の仕組みについて詳しく解説します。"
+title: Article Title
+description: Article description (max 120 chars)
+permalink: /en/archives/2025/01/23/jekyll-darkmode-implementation/
+lang: en
+date: 2025-01-23T00:00:00Z
+last_modified_at: 2025-01-23T00:00:00Z
+author: founder
+categories: [official-records]
+tags: [TAG1, TAG2, TAG3]
 ---
 
 # Jekyll でダークモード実装記録

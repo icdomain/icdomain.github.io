@@ -1,9 +1,16 @@
 ---
-title: System Diagnostic Report
-date: 2025-08-17 06:12 +0900
-by: Computational Resource Management Authority
-categories: official-records
+layout: post
+title: Article Title
+description: Article description (max 120 chars)
+permalink: /en/archives/2025/08/17/diagnostic-report-5/
+lang: en
+date: 2025-08-17T00:00:00Z
+last_modified_at: 2025-08-17T00:00:00Z
+author: founder
+categories: [official-records]
+tags: [TAG1, TAG2, TAG3]
 ---
+
 by Computational Resource Management Authority
 
 ## System Status

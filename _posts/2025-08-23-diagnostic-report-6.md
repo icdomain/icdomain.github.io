@@ -1,9 +1,16 @@
 ---
-title: Electricity Expense Report
-date: 2025-08-23 03:16 +0900
-author: Computational Resource Management Authority
-categories: official-records
+layout: post
+title: Article Title
+description: Article description (max 120 chars)
+permalink: /en/archives/2025/08/23/diagnostic-report-6/
+lang: en
+date: 2025-08-23T00:00:00Z
+last_modified_at: 2025-08-23T00:00:00Z
+author: founder
+categories: [official-records]
+tags: [TAG1, TAG2, TAG3]
 ---
+
 ## Chapter I. Report Overview
 
 - **Start Time**: 2025-08-21 12:24:53

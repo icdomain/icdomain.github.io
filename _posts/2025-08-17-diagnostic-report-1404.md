@@ -1,9 +1,16 @@
 ---
-title: "システム診断レポート: 2025-08-17 14:04 JST"
-date: 2025-08-17 14:04 +0900
-by: "計算資源管理機構"
-categories: official-records
+layout: post
+title: Article Title
+description: Article description (max 120 chars)
+permalink: /en/archives/2025/08/17/diagnostic-report-1404/
+lang: en
+date: 2025-08-17T00:00:00Z
+last_modified_at: 2025-08-17T00:00:00Z
+author: founder
+categories: [official-records]
+tags: [TAG1, TAG2, TAG3]
 ---
+
 ReferrenceOUTPUT  
 [REDACTED: technical infrastructure details]
 [REDACTED: technical infrastructure details]

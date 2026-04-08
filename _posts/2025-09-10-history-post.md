@@ -1,9 +1,14 @@
 ---
 layout: post
-title: "test"
-date: 2025-09-05 13:52:00 +0900
-categories: [dev-blog]
-excerpt: "pgraded both main PC and backup PC memory to 32GB each"
+title: Article Title
+description: Article description (max 120 chars)
+permalink: /en/archives/2025/09/10/history-post/
+lang: en
+date: 2025-09-10T00:00:00Z
+last_modified_at: 2025-09-10T00:00:00Z
+author: founder
+categories: [official-records]
+tags: [TAG1, TAG2, TAG3]
 ---
 
 # Memory Operates You!!! (Russian-style inversion)

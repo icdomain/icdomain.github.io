@@ -1,9 +1,16 @@
 ---
-title: System Diagnostic Report
-date: 2025-09-06 00:05 +0900
-author: Computational Resource Management Authority
-categories: official-records
+layout: post
+title: Article Title
+description: Article description (max 120 chars)
+permalink: /en/archives/2025/09/06/diagnostic-report/
+lang: en
+date: 2025-09-06T00:00:00Z
+last_modified_at: 2025-09-06T00:00:00Z
+author: founder
+categories: [official-records]
+tags: [TAG1, TAG2, TAG3]
 ---
+
 Here is a report on potential areas to improve stability based on the provided system information:
 
 **Requirements for Improving Stability**

@@ -1,10 +1,14 @@
 ---
 layout: post
-title: "Changed PC's Kernel"
-date: 2025-09-04 14:31:00 +0900
-categories: [developer-blog]
-tags: [update]
-excerpt: "Changed PC's kernel. This is expected to improve the system's operational stabilit"
+title: Article Title
+description: Article description (max 120 chars)
+permalink: /en/archives/2025/09/04/dev-blog-post/
+lang: en
+date: 2025-09-04T00:00:00Z
+last_modified_at: 2025-09-04T00:00:00Z
+author: founder
+categories: [official-records]
+tags: [TAG1, TAG2, TAG3]
 ---
 
 ## Celebrating the Revival of Wired LAN
