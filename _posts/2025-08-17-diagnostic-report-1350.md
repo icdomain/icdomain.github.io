@@ -1,8 +1,16 @@
 ---
-title: "システム診断レポート: 2025-08-17 13:50 JST"
-date: 2025-08-17 13:50 +0900
-categories: official-records
+layout: post
+title: 記事タイトル
+description: 記事の説明（120字以内）
+permalink: /en/archives/2025/08/17/diagnostic-report-1350/
+lang: en
+date: 2025-08-17T00:00:00Z
+last_modified_at: 2025-08-17T00:00:00Z
+author: founder
+categories: [official-records]
+tags: [TAG1, TAG2, TAG3]
 ---
+
 AgentOUTPUT  
 \---
 

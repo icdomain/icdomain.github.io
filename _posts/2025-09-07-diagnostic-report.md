@@ -1,9 +1,16 @@
 ---
-title: System Diagnostic Report
-date: 2025-09-07 02:58 +0900
-author: Computational Resource Management Authority
-categories: official-records
+layout: post
+title: 記事タイトル
+description: 記事の説明（120字以内）
+permalink: /en/archives/2025/09/07/diagnostic-report/
+lang: en
+date: 2025-09-07T00:00:00Z
+last_modified_at: 2025-09-07T00:00:00Z
+author: founder
+categories: [official-records]
+tags: [TAG1, TAG2, TAG3]
 ---
+
 Here's a possible analysis of the system logs and reports:
 
 **Requirements for Improving Stability**

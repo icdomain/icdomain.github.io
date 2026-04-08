@@ -1,9 +1,14 @@
 ---
 layout: post
-title: "開発者ブログスタート & Jekyll ダークモード実装"
-date: 2025-01-23 15:00:00 +0900
-categories: [dev-blog]
-excerpt: "開発者ブログを開設しました。最初の記事として、サイトにダークモードを実装した過程を記録します。"
+title: 記事タイトル
+description: 記事の説明（120字以内）
+permalink: /en/archives/2025/01/23/first-dev-blog-post/
+lang: en
+date: 2025-01-23T00:00:00Z
+last_modified_at: 2025-01-23T00:00:00Z
+author: founder
+categories: [official-records]
+tags: [TAG1, TAG2, TAG3]
 ---
 
 # 開発者ブログスタート！
