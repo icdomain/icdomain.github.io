@@ -2,6 +2,7 @@ title: Independent Compute Domain
 url: https://icdomain.github.io
 timezone: Etc/UTC
 theme: jekyll-theme-hacker
+future: true
 
 exclude:
   - _templates
