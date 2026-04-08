@@ -1,15 +1,29 @@
 ---
 layout: default
-title: developer-blog
-permalink: /developer-blog/
+title: 開発者ブログ
+description: Independent Compute Domain 開発チームによる技術記録
+permalink: /ja/developer-blog/
+lang: ja
+alt_lang_url: /en/developer-blog/
+date: 2026-04-08
+last_modified_at: 2026-04-08
+author: founder
 ---
 
-# Developer Blog
-I will post records of implementation and trial and error.
+# 開発者ブログ
 
-{% assign developer_blog_posts = site.posts | where: "categories", "developer-blog" %}
+ICDの構築・運営に関する技術記録。
 
-{% for post in developer_blog_posts %}
-## [{{ post.title }}]({{ post.url | relative_url }})
-<!-- 以下同様 -->
+## 最新の開発記事
+
+{% assign dev_posts = site.posts | where: "lang", "ja" | sort: "date" | reverse %}
+{% assign count = 0 %}
+{% for post in dev_posts %}
+  {% if post.categories contains "developer-blog" and count < 3 %}
+- [{{ post.title }}]({{ post.url }}) <time>{{ post.date | date: "%Y-%m-%d" }}</time>
+  {{ post.description }}
+    {% assign count = count | plus: 1 %}
+  {% endif %}
 {% endfor %}
+
+[開発記事をすべて見る → アーカイブ](/ja/archives/)
