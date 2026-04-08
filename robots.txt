@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://icdomain.github.io/sitemap.xml
