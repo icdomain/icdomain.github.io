@@ -1,389 +1,83 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="{{ page.lang | default: 'en' }}">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title | default: "The ndependent state of Luminarch" }}</title>
-    
-    <!-- ちらつき防止スクリプト（CSSより前に配置） -->
-    <script>
-        (function() {
-            const savedTheme = localStorage.getItem('theme');
-            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-            
-            if (savedTheme) {
-                document.documentElement.setAttribute('data-theme', savedTheme);
-            } else if (prefersDark) {
-                document.documentElement.setAttribute('data-theme', 'dark');
-            }
-        })();
-    </script>
-    
-    <style>
-        :root {
-            --bg-color: #ffffff;
-            --text-color: #333333;
-            --link-color: #0066cc;
-            --border-color: #cccccc;
-            --nav-hover: #f0f0f0;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  {% if page.description %}
+  <meta name="description" content="{{ page.description }}">
+  {% endif %}
 
-        [data-theme="dark"] {
-            --bg-color: #1a1a1a;
-            --text-color: #e0e0e0;
-            --link-color: #66b3ff;
-            --border-color: #444444;
-            --nav-hover: #2a2a2a;
-        }
+  {% comment %} Canonical and hreflang {% endcomment %}
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <link rel="alternate" hreflang="{{ page.lang }}" href="{{ site.url }}{{ page.url }}">
+  {% if page.alt_lang_url %}
+    {% if page.lang == 'ja' %}
+  <link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.alt_lang_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.alt_lang_url }}">
+    {% else %}
+  <link rel="alternate" hreflang="ja" href="{{ site.url }}{{ page.alt_lang_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.url }}">
+    {% endif %}
+  {% endif %}
 
-        @media (prefers-color-scheme: dark) {
-            :root:not([data-theme]) {
-                --bg-color: #1a1a1a;
-                --text-color: #e0e0e0;
-                --link-color: #66b3ff;
-                --border-color: #444444;
-                --nav-hover: #2a2a2a;
-            }
-        }
+  {% comment %} OGP {% endcomment %}
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ page.description }}">
+  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:locale" content="{% if page.lang == 'ja' %}ja_JP{% else %}en_US{% endif %}">
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            line-height: 1.6;
-            color: var(--text-color);
-            background-color: var(--bg-color);
-            transition: background-color 0.3s ease, color 0.3s ease;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        header {
-            background-color: var(--bg-color);
-            border-bottom: 1px solid var(--border-color);
-            padding: 1rem 0;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-
-        .nav-links {
-            display: flex;
-            gap: 1.5rem;
-            align-items: center;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: var(--text-color);
-            font-weight: 500;
-            padding: 0.5rem 1rem;
-            border-radius: 4px;
-            transition: background-color 0.2s ease;
-        }
-
-        nav a:hover {
-            background-color: var(--nav-hover);
-        }
-
-        nav a.active {
-            background-color: var(--link-color);
-            color: white;
-        }
-
-        .theme-toggle {
-            background: none;
-            border: 1px solid var(--border-color);
-            color: var(--text-color);
-            padding: 0.5rem;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 1.2rem;
-            transition: background-color 0.2s ease;
-        }
-
-        .theme-toggle:hover {
-            background-color: var(--nav-hover);
-        }
-
-        [data-theme="dark"] .sun-icon { 
-            display: none; 
-        }
-
-        [data-theme="light"] .moon-icon,
-        :root:not([data-theme]) .moon-icon { 
-            display: none; 
-        }
-
-        main {
-            padding: 2rem 0;
-            min-height: calc(100vh - 200px);
-        }
-
-        h1, h2, h3, h4, h5, h6 {
-            margin-bottom: 1rem;
-            color: var(--text-color);
-        }
-
-        h1 {
-            font-size: 2.5rem;
-            border-bottom: 2px solid var(--link-color);
-            padding-bottom: 0.5rem;
-        }
-
-        h2 {
-            font-size: 2rem;
-            margin-top: 2rem;
-        }
-
-        h3 {
-            font-size: 1.5rem;
-            margin-top: 1.5rem;
-        }
-
-        p {
-            margin-bottom: 1rem;
-        }
-
-        a {
-            color: var(--link-color);
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        ul, ol {
-            margin-bottom: 1rem;
-            padding-left: 2rem;
-        }
-
-        li {
-            margin-bottom: 0.5rem;
-        }
-
-        blockquote {
-            border-left: 4px solid var(--link-color);
-            padding-left: 1rem;
-            margin: 1rem 0;
-            font-style: italic;
-            color: var(--text-color);
-            opacity: 0.8;
-        }
-
-        pre {
-            background-color: var(--nav-hover);
-            padding: 1rem;
-            border-radius: 4px;
-            overflow-x: auto;
-            margin: 1rem 0;
-            border: 1px solid var(--border-color);
-        }
-
-        code {
-            background-color: var(--nav-hover);
-            padding: 0.2rem 0.4rem;
-            border-radius: 3px;
-            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
-            font-size: 0.9rem;
-        }
-
-        pre code {
-            background: none;
-            padding: 0;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 1rem 0;
-        }
-
-        th, td {
-            border: 1px solid var(--border-color);
-            padding: 0.75rem;
-            text-align: left;
-        }
-
-        th {
-            background-color: var(--nav-hover);
-            font-weight: bold;
-        }
-
-        hr {
-            border: none;
-            border-top: 1px solid var(--border-color);
-            margin: 2rem 0;
-        }
-
-        .post-meta {
-            color: var(--text-color);
-            opacity: 0.7;
-            font-size: 0.9rem;
-            margin-bottom: 1rem;
-        }
-
-        .tag {
-            background: var(--nav-hover);
-            padding: 0.2rem 0.5rem;
-            border-radius: 3px;
-            font-size: 0.8rem;
-            margin-right: 0.5rem;
-            display: inline-block;
-            margin-bottom: 0.3rem;
-        }
-
-        footer {
-            border-top: 1px solid var(--border-color);
-            padding: 2rem 0;
-            text-align: center;
-            color: var(--text-color);
-            opacity: 0.7;
-            margin-top: 3rem;
-        }
-
-        /* レスポンシブ対応 */
-        @media (max-width: 768px) {
-            .container {
-                padding: 0 15px;
-            }
-            
-            nav {
-                flex-direction: column;
-                gap: 1rem;
-            }
-            
-            .nav-links {
-                gap: 1rem;
-            }
-            
-            h1 {
-                font-size: 2rem;
-            }
-            
-            h2 {
-                font-size: 1.5rem;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .nav-links {
-                flex-direction: column;
-                gap: 0.5rem;
-                width: 100%;
-            }
-            
-            nav a {
-                text-align: center;
-                width: 100%;
-            }
-        }
-    </style>
+  <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <nav>
-                <div class="nav-links">
-                    <a href="{{ '/' | relative_url }}" 
-                       {% if page.url == '/' %}class="active"{% endif %}>home</a>
-                    <a href="{{ '/developer-blog' | relative_url }}" 
-                       {% if page.url == '/developer-blog/' or (page.layout == 'post' and page.categories contains 'developer-blog') %}class="active"{% endif %}>developer-blog</a>
-                    <a href="{{ '/history' | relative_url }}" 
-                       {% if page.url == '/history/' %}class="active"{% endif %}>history</a>
-                    <a href="{{ '/tourism' | relative_url }}" 
-                       {% if page.url == '/tourism/' %}class="active"{% endif %}>tourism</a>
-                    <a href="{{ '/official-records' | relative_url }}" 
-                       {% if page.url == '/official-records/' %}class="active"{% endif %}>Official Records</a>
-                    <a href="{{ '/archives' | relative_url }}" 
-                       {% if page.url == '/archives/' %}class="active"{% endif %}>Archives</a>
-                </div>
-                
-                <button id="theme-toggle" class="theme-toggle" aria-label="theme-toggle">
-                    <span class="sun-icon">☀️</span>
-                    <span class="moon-icon">🌙</span>
-                </button>
-            </nav>
-        </div>
-    </header>
 
-    <main>
-        <div class="container">
-            {% if page.layout == 'post' %}
-            <article>
-                <header>
-                    <div class="post-meta">
-                        <time datetime="{{ page.date | date_to_xmlschema }}">
-                            {{ page.date | date: "%Y-%m-%d" }}
-                        </time>
-                        {% if page.categories.size > 0 %}
-                        | categories: {{ page.categories | join: ", " }}
-                        {% endif %}
-                    </div>
-                    {% if page.tags.size > 0 %}
-                    <div class="post-tags">
-                        {% for tag in page.tags %}
-                        <span class="tag">#{{ tag }}</span>
-                        {% endfor %}
-                    </div>
-                    {% endif %}
-                </header>
-                
-                <div class="post-content">
-                    {{ content }}
-                </div>
-            </article>
-            {% else %}
-            {{ content }}
-            {% endif %}
-        </div>
-    </main>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/{{ page.lang }}/" class="site-title">{{ site.title }}</a>
+    <nav class="site-nav">
+      {% if page.lang == 'ja' %}
+        <a href="/ja/tourism/">観光</a>
+        <a href="/ja/history/">歴史</a>
+        <a href="/ja/official-records/">公式記録</a>
+        <a href="/ja/developer-blog/">開発ブログ</a>
+        <a href="/ja/archives/">アーカイブ</a>
+      {% else %}
+        <a href="/en/tourism/">Tourism</a>
+        <a href="/en/history/">History</a>
+        <a href="/en/official-records/">Records</a>
+        <a href="/en/developer-blog/">Dev Blog</a>
+        <a href="/en/archives/">Archives</a>
+      {% endif %}
+    </nav>
+    <div class="lang-switch">
+      {% if page.alt_lang_url %}
+        <a href="{{ page.alt_lang_url }}" id="lang-switch-link">
+          {% if page.lang == 'ja' %}English{% else %}日本語{% endif %}
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</header>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 The Independent State of Luminarch. All rights reserved.</p>
-            <p>Built with <a href="https://jekyllrb.com/">Jekyll</a> and hosted on <a href="https://pages.github.com/">GitHub Pages</a></p>
-        </div>
-    </footer>
+<main class="site-main">
+  {{ content }}
+</main>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const themeToggle = document.getElementById('theme-toggle');
-            
-            if (themeToggle) {
-                themeToggle.addEventListener('click', function() {
-                    const currentTheme = document.documentElement.getAttribute('data-theme');
-                    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-                    
-                    document.documentElement.setAttribute('data-theme', newTheme);
-                    localStorage.setItem('theme', newTheme);
-                });
-            }
+<footer class="site-footer">
+  <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</p>
+</footer>
 
-            // システムの色設定変更を監視
-            window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
-                // 手動設定がない場合のみ自動追従
-                if (!localStorage.getItem('theme')) {
-                    document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
-                }
-            });
-        });
-    </script>
+<script>
+(function() {
+  var link = document.getElementById('lang-switch-link');
+  if (!link) return;
+  link.addEventListener('click', function() {
+    var lang = '{{ page.lang }}' === 'ja' ? 'en' : 'ja';
+    try { localStorage.setItem('icd-lang', lang); } catch(e) {}
+  });
+})();
+</script>
+
 </body>
 </html>
