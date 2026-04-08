@@ -1,18 +1,30 @@
 ---
 layout: default
-title: home
+title: Independent Compute Domain
+description: Independent Compute Domain 公式サイト
+permalink: /ja/
+lang: ja
+alt_lang_url: /en/
+date: 2026-04-08
+last_modified_at: 2026-04-08
+author: founder
 ---
 
-# Welcome to Independent State Of Luminarch
-Luminarch is a micronation within a computer.
+# Independent Compute Domain
 
-## news
+ICD公式サイトへようこそ。
 
-{% assign news_posts = site.posts | where_exp: "post", "post.categories.size == 0" | limit: 5 %}
-{% for post in news_posts %}
-- **{{ post.date | date: "%m/%d" }}** [{{ post.title }}]({{ post.url | relative_url }})
+## セクション
+
+- [観光](/ja/tourism/)
+- [歴史](/ja/history/)
+- [公式記録](/ja/official-records/)
+- [開発者ブログ](/ja/developer-blog/)
+- [アーカイブ](/ja/archives/)
+
+## 最新の記事
+
+{% assign latest = site.posts | where: "lang", "ja" | sort: "date" | reverse %}
+{% for post in latest limit:5 %}
+- [{{ post.title }}]({{ post.url }}) <time>{{ post.date | date: "%Y-%m-%d" }}</time>
 {% endfor %}
-
-{% if news_posts.size == 0 %}
-There are no announcements at this time.
-{% endif %}
