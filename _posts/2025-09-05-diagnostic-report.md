@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: HDD and Cooling Stability Analysis — 2025-09-05
+description: Automated report on 2025-09-05 analyzing high power-off retract counts and potential hardware issues; recommendations for cooling inspection and driver updates.
 permalink: /en/archives/2025/09/05/diagnostic-report/
 lang: en
 date: 2025-09-05T00:00:00Z
 last_modified_at: 2025-09-05T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [diagnostic, stability, hardware, infrastructure]
 ---
 
 Based on the system report provided, here are some observations and recommendations:

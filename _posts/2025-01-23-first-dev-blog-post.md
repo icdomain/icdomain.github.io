@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: Launching the Developer Blog for Luminarch Independent Nation
+description: Announcing the launch of the official developer blog, covering dark mode, navigation, and Jekyll blog system implementation for the Luminarch independent nation site.
 permalink: /en/archives/2025/01/23/first-dev-blog-post/
 lang: en
 date: 2025-01-23T00:00:00Z
 last_modified_at: 2025-01-23T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [dev-blog, jekyll, dark-mode, navigation]
 ---
 
 # 開発者ブログスタート！

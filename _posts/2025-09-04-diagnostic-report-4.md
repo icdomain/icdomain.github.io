@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: ASUS i7-4790K System Analysis and Stability Review — 2025-09-04
+description: Automated report reviewing ASUS i7-4790K system; notes outdated firmware, I2C timeout errors, and drive retract counts; suggests firmware update and driver fixes.
 permalink: /en/archives/2025/09/04/diagnostic-report-4/
 lang: en
 date: 2025-09-04T00:00:00Z
 last_modified_at: 2025-09-04T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [diagnostic, node-status, stability, hardware]
 ---
 
 Here's a review of the system's status, highlighting areas that need improvement:

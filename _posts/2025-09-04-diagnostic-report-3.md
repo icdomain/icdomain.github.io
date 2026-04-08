@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: Hardware Compatibility and Stability Demands — 2025-09-04
+description: Automated report on 2025-09-04 identifying overheating, system errors, and hardware compatibility issues; node status: x86-64, 439G and 2.7T volumes, 40°C cores.
 permalink: /en/archives/2025/09/04/diagnostic-report-3/
 lang: en
 date: 2025-09-04T00:00:00Z
 last_modified_at: 2025-09-04T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [diagnostic, node-status, stability, hardware]
 ---
 
 Based on the system report, here are some potential areas that require attention to improve stability:

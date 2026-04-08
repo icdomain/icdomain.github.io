@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: RAM Upgrade to 32GB — Motherboard Compatibility (History Archive)
+description: Historical record of upgrading both main and backup PCs to 32GB RAM, detailing motherboard compatibility challenges and DDR4 module matching strategy.
 permalink: /en/archives/2025/09/10/history-post/
 lang: en
 date: 2025-09-10T00:00:00Z
 last_modified_at: 2025-09-10T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [history, hardware, memory, upgrade]
 ---
 
 # Memory Operates You!!! (Russian-style inversion)

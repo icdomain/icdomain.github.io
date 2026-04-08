@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: Fan Failure and Drive Health Demands — 2025-09-07
+description: Automated report on 2025-09-07 identifying overheating, fan failure, and high power-off retract count; recommends fan replacement and PSU inspection.
 permalink: /en/archives/2025/09/07/diagnostic-report-4/
 lang: en
 date: 2025-09-07T00:00:00Z
 last_modified_at: 2025-09-07T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [diagnostic, stability, hardware, cooling]
 ---
 
 Based on the provided system report, I'll identify areas that require attention to improve stability:

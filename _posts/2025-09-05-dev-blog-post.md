@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: RAM Upgrade to 32GB — Motherboard Compatibility Challenges
+description: Developer blog on upgrading both main and backup PCs to 32GB RAM; details motherboard compatibility issues and manufacturer-matching strategy for DDR4 modules.
 permalink: /en/archives/2025/09/05/dev-blog-post/
 lang: en
 date: 2025-09-05T00:00:00Z
 last_modified_at: 2025-09-05T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [dev-blog, hardware, memory, upgrade]
 ---
 
 ## Memory Operates You!!! (Soviet-style inversion)

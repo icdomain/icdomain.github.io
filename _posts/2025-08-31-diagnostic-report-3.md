@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: I2C Timeout Errors and Stability Demands — 2025-08-31
+description: Automated report on 2025-08-31 flagging I2C timeout errors and uncorrectable sector counts; node status: 439G volume (16% used), 40°C cores.
 permalink: /en/archives/2025/08/31/diagnostic-report-3/
 lang: en
 date: 2025-08-31T00:00:00Z
 last_modified_at: 2025-08-31T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [diagnostic, node-status, stability, hardware]
 ---
 
 # DEMANDS FOR STABILITY

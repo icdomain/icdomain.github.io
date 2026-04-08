@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: Cooling and Driver Stability Demands — 2025-09-08
+description: Automated report on 2025-09-08 covering cooling system issues, power management, and driver errors; recommendations for system stability improvement.
 permalink: /en/archives/2025/09/08/diagnostic-report/
 lang: en
 date: 2025-09-08T00:00:00Z
 last_modified_at: 2025-09-08T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [diagnostic, stability, cooling, hardware]
 ---
 
 **Requirements for Improving Stability**

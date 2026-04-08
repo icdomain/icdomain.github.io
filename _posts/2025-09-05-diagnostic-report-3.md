@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: Fan and Power Management Stability Demands — 2025-09-05
+description: Automated report on 2025-09-05 covering fan verification, power management review, and system log maintenance; action plan with short/medium/long-term timeline.
 permalink: /en/archives/2025/09/05/diagnostic-report-3/
 lang: en
 date: 2025-09-05T00:00:00Z
 last_modified_at: 2025-09-05T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [diagnostic, stability, cooling, hardware]
 ---
 
 **Requirements for Improving Stability**

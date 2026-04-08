@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: GPU Driver and Hardware Stability Demands — 2025-09-08
+description: Automated report on 2025-09-08 covering GPU driver errors, power-on hour readings, and cooling inspection requirements.
 permalink: /en/archives/2025/09/08/diagnostic-report-3/
 lang: en
 date: 2025-09-08T00:00:00Z
 last_modified_at: 2025-09-08T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [diagnostic, stability, hardware, infrastructure]
 ---
 
 Based on the system report, here are some areas that require attention to improve stability:

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: Requirements for Improving Stability — 2025-09-04
+description: Automated report on 2025-09-04 listing 7 stability requirements including power monitoring, software updates, and log management.
 permalink: /en/archives/2025/09/04/diagnostic-report/
 lang: en
 date: 2025-09-04T00:00:00Z
 last_modified_at: 2025-09-04T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [diagnostic, stability, infrastructure]
 ---
 
 **Requirements for Improving Stability**

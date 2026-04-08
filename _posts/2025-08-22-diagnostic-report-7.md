@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: Power Expenditure Report — 2025-08-22 (7)
+description: Expenditure report on 2025-08-22 showing 0 kWh with estimated efficiency at 0.18 kWh/h and 31 JPY/h; Director and Monarch note measurement system issues.
 permalink: /en/archives/2025/08/22/diagnostic-report-7/
 lang: en
 date: 2025-08-22T00:00:00Z
 last_modified_at: 2025-08-22T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [diagnostic, power-consumption, expenditure]
 ---
 
 ## Chapter I. Report Overview

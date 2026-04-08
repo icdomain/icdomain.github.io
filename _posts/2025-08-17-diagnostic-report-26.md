@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: Stability Demands and Node Status — 2025-08-17 (26)
+description: Automated report on 2025-08-17 noting impacts require time-based monitoring; node status: x86-64, 50G volume (42% used).
 permalink: /en/archives/2025/08/17/diagnostic-report-26/
 lang: en
 date: 2025-08-17T00:00:00Z
 last_modified_at: 2025-08-17T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [diagnostic, node-status, stability, infrastructure]
 ---
 
 # DEMANDS FOR STABILITY

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: Power Expenditure Report 2025-08-21 to 2025-08-23 — Compact Format
+description: Compact power expenditure record for 36.5 hours: 6.5752 kWh at 203.83 JPY; Monarch reflects on energy stewardship and efficiency metrics.
 permalink: /en/archives/2025/08/23/diagnostic-report2/
 lang: en
 date: 2025-08-23T00:00:00Z
 last_modified_at: 2025-08-23T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [diagnostic, power-consumption, expenditure]
 ---
 
 ## Chapter I. Report Overview  

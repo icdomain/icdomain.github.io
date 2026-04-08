@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: Power Expenditure Report 2025-08-21 to 2025-08-23 — Official Record
+description: Official power expenditure report covering 36.5 hours from 2025-08-21 to 2025-08-23 with 6.5752 kWh total consumption at 203.83 JPY cost.
 permalink: /en/archives/2025/08/22/diagnostic-report-8/
 lang: en
 date: 2025-08-22T00:00:00Z
 last_modified_at: 2025-08-22T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [diagnostic, power-consumption, expenditure]
 ---
 
 ## Chapter I. Report Overview

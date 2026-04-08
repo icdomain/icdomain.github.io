@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: Power-On Hours and Driver Update Demands — 2025-09-11
+description: Automated report on 2025-09-11 covering power-on hours monitoring and driver update requirements; node status: x86-64, 16GB RAM.
 permalink: /en/archives/2025/09/11/diagnostic-report-2/
 lang: en
 date: 2025-09-11T00:00:00Z
 last_modified_at: 2025-09-11T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [diagnostic, node-status, stability, infrastructure]
 ---
 
 Here is the output based on the provided logs:

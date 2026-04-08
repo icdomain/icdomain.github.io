@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: Regular Maintenance and System Stability Demands — 2025-08-31
+description: Automated report on 2025-08-31 demanding regular updates, hardware checks, and log management; node status: 31GB RAM, volumes unavailable.
 permalink: /en/archives/2025/08/31/diagnostic-report/
 lang: en
 date: 2025-08-31T00:00:00Z
 last_modified_at: 2025-08-31T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [diagnostic, node-status, stability, infrastructure]
 ---
 
 **DEMANDS FOR STABILITY**

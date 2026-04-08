@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: Node Status Report — 2024-03-08
+description: Node status report for 2024-03-08 including x86-64 architecture details, volume usage at 42%, and CPU core temperature at 49°C.
 permalink: /en/archives/2025/08/17/diagnostic-report-7/
 lang: en
 date: 2025-08-17T00:00:00Z
 last_modified_at: 2025-08-17T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [diagnostic, node-status, infrastructure]
 ---
 
 Based on the input, here is the generated Markdown file:

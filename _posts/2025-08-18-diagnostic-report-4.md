@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: Load Balancing Demand and Node Status — 2025-08-18
+description: Automated report on 2025-08-18 recommending load balancing and optimal resource allocation; node status: x86-64, 50G volume (42% used).
 permalink: /en/archives/2025/08/18/diagnostic-report-4/
 lang: en
 date: 2025-08-18T00:00:00Z
 last_modified_at: 2025-08-18T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [diagnostic, node-status, stability, infrastructure]
 ---
 
 # DEMANDS FOR STABILITY

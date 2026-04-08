@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: Computational Resource Management Authority System Report — 2025-08-17 (5)
+description: System status report by the Computational Resource Management Authority on 2025-08-17, covering infrastructure conditions.
 permalink: /en/archives/2025/08/17/diagnostic-report-5/
 lang: en
 date: 2025-08-17T00:00:00Z
 last_modified_at: 2025-08-17T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [diagnostic, system-monitoring, infrastructure]
 ---
 
 by Computational Resource Management Authority

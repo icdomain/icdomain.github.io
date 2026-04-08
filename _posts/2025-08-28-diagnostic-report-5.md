@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: System Resource Usage and Improvement Demands — 2025-08-28
+description: Automated report on 2025-08-28 detailing memory usage (2480 used), volume at 42%, and demanding updates and system stability improvements.
 permalink: /en/archives/2025/08/28/diagnostic-report-5/
 lang: en
 date: 2025-08-28T00:00:00Z
 last_modified_at: 2025-08-28T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [diagnostic, node-status, stability, infrastructure]
 ---
 
 \# DEMANDS FOR STABILITY

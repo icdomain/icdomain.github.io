@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: Wired LAN Restoration and Kernel Switch to Generic Version
+description: Developer blog on restoring wired LAN via DNS reconfiguration and switching from HWE to generic Ubuntu kernel, improving system stability significantly.
 permalink: /en/archives/2025/09/04/dev-blog-post/
 lang: en
 date: 2025-09-04T00:00:00Z
 last_modified_at: 2025-09-04T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [dev-blog, ubuntu, kernel, networking]
 ---
 
 ## Celebrating the Revival of Wired LAN

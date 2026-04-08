@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: Power Management and System Update Demands — 2025-09-14 (2)
+description: Automated report on 2025-09-14 covering power management and system updates; node status: x86-64, 31GB RAM, 439G and 2.7T volumes, 50°C cores.
 permalink: /en/archives/2025/09/14/diagnostic-report-2/
 lang: en
 date: 2025-09-14T00:00:00Z
 last_modified_at: 2025-09-14T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [diagnostic, node-status, stability, infrastructure]
 ---
 
 Based on the system report, here are some potential areas for improvement to enhance stability:

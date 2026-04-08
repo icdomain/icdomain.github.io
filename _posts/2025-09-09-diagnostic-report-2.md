@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: Cooling and Power Stability Demands — 2025-09-09 (2)
+description: Automated report on 2025-09-09 covering overheating, power consumption, and system log issues; stability improvement plan outlined.
 permalink: /en/archives/2025/09/09/diagnostic-report-2/
 lang: en
 date: 2025-09-09T00:00:00Z
 last_modified_at: 2025-09-09T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [diagnostic, stability, cooling, hardware]
 ---
 
 **Requirements for Improving Stability**

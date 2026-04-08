@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: Node Status Report with Stability Demands — 2025-08-17
+description: Node status report for 2025-08-17 with demands for stability, x86-64 architecture, 28G volume (42% used), and 32GB RAM details.
 permalink: /en/archives/2025/08/17/diagnostic-report-9/
 lang: en
 date: 2025-08-17T00:00:00Z
 last_modified_at: 2025-08-17T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [diagnostic, node-status, stability, infrastructure]
 ---
 
 # DEMANDS FOR STABILITY

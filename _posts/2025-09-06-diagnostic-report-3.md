@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: Drive Health and I2C Timeout Analysis — 2025-09-06
+description: Automated report on 2025-09-06 analyzing old firmware, high load cycle count, and i2c timeout errors; node status: 16GB RAM, 439G and 2.7T volumes, 32°C core.
 permalink: /en/archives/2025/09/06/diagnostic-report-3/
 lang: en
 date: 2025-09-06T00:00:00Z
 last_modified_at: 2025-09-06T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [diagnostic, node-status, stability, hardware]
 ---
 
 Based on the system report, here are some areas that could be improved to enhance stability:

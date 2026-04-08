@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: Diagnostic Report — 2025-08-17 (6)
+description: A diagnostic report entry on 2025-08-17 with no input log provided; awaiting raw log for infrastructure data extraction.
 permalink: /en/archives/2025/08/17/diagnostic-report-6/
 lang: en
 date: 2025-08-17T00:00:00Z
 last_modified_at: 2025-08-17T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [diagnostic, system-monitoring, archive]
 ---
 
 by Computational Resource Management Authority

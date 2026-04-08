@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: Power Expenditure Report — 2025-08-22 15:37
+description: Expenditure report at 15:37 on 2025-08-22 showing 0 kWh, 0 seconds elapsed; Director and Monarch note this appears to be an initial setup run.
 permalink: /en/archives/2025/08/22/diagnostic-report-6/
 lang: en
 date: 2025-08-22T00:00:00Z
 last_modified_at: 2025-08-22T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [diagnostic, power-consumption, expenditure]
 ---
 
 ## Chapter I. Report Overview

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: Dark Mode Implementation Record for Jekyll Site
+description: Technical notes on implementing dark mode in Jekyll with CSS variables, prefers-color-scheme detection, manual toggle, localStorage persistence, and flash prevention.
 permalink: /en/archives/2025/01/23/jekyll-darkmode-implementation/
 lang: en
 date: 2025-01-23T00:00:00Z
 last_modified_at: 2025-01-23T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [jekyll, dark-mode, css, frontend]
 ---
 
 # Jekyll でダークモード実装記録

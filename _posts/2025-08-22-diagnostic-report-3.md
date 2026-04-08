@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: Power Expenditure Report — 2025-08-22 14:43
+description: Expenditure report at 14:43 on 2025-08-22 showing 0 kWh total power consumption with unavailable timestamps; Director notes data gaps.
 permalink: /en/archives/2025/08/22/diagnostic-report-3/
 lang: en
 date: 2025-08-22T00:00:00Z
 last_modified_at: 2025-08-22T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [diagnostic, power-consumption, expenditure]
 ---
 
 ## Chapter I. Report Overview

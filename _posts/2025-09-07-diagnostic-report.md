@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: CPU and System Configuration Analysis — 2025-09-07
+description: Automated report on 2025-09-07 analyzing CPU temps (40-43°C), drive attributes, and power management; node status: 31GB RAM, 2TB volumes at 69%.
 permalink: /en/archives/2025/09/07/diagnostic-report/
 lang: en
 date: 2025-09-07T00:00:00Z
 last_modified_at: 2025-09-07T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [diagnostic, node-status, stability, hardware]
 ---
 
 Here's a possible analysis of the system logs and reports:

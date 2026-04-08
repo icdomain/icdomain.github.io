@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: Fan Speed and Virtualization Stability Demands — 2025-09-07
+description: Automated report on 2025-09-07 flagging low fan speed and disabled virtualization features; node status: x86-64, 31GB RAM, 439G and 2.7T volumes, 40°C core.
 permalink: /en/archives/2025/09/07/diagnostic-report-5/
 lang: en
 date: 2025-09-07T00:00:00Z
 last_modified_at: 2025-09-07T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [diagnostic, node-status, stability, hardware]
 ---
 
 Based on the system report provided, here are some potential areas for improvement to increase stability:

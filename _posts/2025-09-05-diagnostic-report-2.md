@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 記事タイトル
-description: 記事の説明（120字以内）
+title: Drive Health and Cooling Stability Demands — 2025-09-05
+description: Automated report on 2025-09-05 covering drive health (high power-off retract count), cooling, and hardware issues; action plan with short and medium-term steps.
 permalink: /en/archives/2025/09/05/diagnostic-report-2/
 lang: en
 date: 2025-09-05T00:00:00Z
 last_modified_at: 2025-09-05T00:00:00Z
 author: founder
 categories: [official-records]
-tags: [TAG1, TAG2, TAG3]
+tags: [diagnostic, stability, hardware, cooling]
 ---
 
 **Requirements for Improving Stability**
