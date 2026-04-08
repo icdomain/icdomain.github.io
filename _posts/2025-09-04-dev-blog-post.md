@@ -7,7 +7,7 @@ lang: en
 date: 2025-09-04T00:00:00Z
 last_modified_at: 2025-09-04T00:00:00Z
 author: founder
-categories: [official-records]
+categories: [developer-blog]
 tags: [dev-blog, ubuntu, kernel, networking]
 ---
 
