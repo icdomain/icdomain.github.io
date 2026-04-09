@@ -28,3 +28,6 @@ Welcome to the official site of the Independent Compute Domain.
 {% for post in latest limit:5 %}
 - [{{ post.title }}]({{ post.url }}) <time>{{ post.date | date: "%Y-%m-%d" }}</time>
 {% endfor %}
+
+## Prohibited Uses of ICD Content
+ICD expressly prohibits any scraping, ingestion, reproduction, summarization, adaptation, transformation, redistribution, AI training, or derivative use of its content without prior written permission. This includes reposting, script generation, and uploads to platforms such as YouTube.
