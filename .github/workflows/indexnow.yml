@@ -1,0 +1,95 @@
+name: IndexNow Notification
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Extract URLs from markdown frontmatter
+        id: extract
+        run: |
+          python3 - <<'PYEOF'
+          import os, re, json, glob
+
+          BASE_URL = "https://icdomain.github.io"
+          BASEURL  = ""
+
+          def parse_frontmatter(path):
+              with open(path, encoding="utf-8") as f:
+                  content = f.read()
+              m = re.match(r"^---\r?\n(.*?)\r?\n---", content, re.DOTALL)
+              if not m:
+                  return {}
+              fm = {}
+              for line in m.group(1).splitlines():
+                  if ":" in line:
+                      k, _, v = line.partition(":")
+                      fm[k.strip()] = v.strip()
+              return fm
+
+          urls = []
+          patterns = ["**/*.md"]
+          for pattern in patterns:
+              for path in glob.glob(pattern, recursive=True):
+                  # skip _templates and other underscore dirs (except _posts)
+                  parts = path.split(os.sep)
+                  if any(p.startswith("_") and p != "_posts" for p in parts[:-1]):
+                      continue
+                  fm = parse_frontmatter(path)
+                  lang      = fm.get("lang", "")
+                  permalink = fm.get("permalink", "")
+                  sitemap   = fm.get("sitemap", "true")
+                  if lang in ("en", "ja") and permalink and sitemap != "false":
+                      urls.append(BASE_URL + BASEURL + permalink.rstrip("/") + "/")
+
+          urls = sorted(set(urls))
+          print(f"Found {len(urls)} URLs")
+          for u in urls:
+              print(f"  {u}")
+
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write(f"url_count={len(urls)}\n")
+              f.write(f"url_json={json.dumps(urls)}\n")
+          PYEOF
+
+      - name: POST to IndexNow
+        env:
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+        run: |
+          URL_JSON='${{ steps.extract.outputs.url_json }}'
+          URL_COUNT='${{ steps.extract.outputs.url_count }}'
+
+          PAYLOAD=$(python3 -c "
+          import json, sys
+          urls = json.loads(sys.argv[1])
+          body = {
+            'host': 'icdomain.github.io',
+            'key': '${{ secrets.INDEXNOW_KEY }}',
+            'keyLocation': 'https://icdomain.github.io/0dad20b566654ddf8824c14ffdd03da2.txt',
+            'urlList': urls
+          }
+          print(json.dumps(body))
+          " "$URL_JSON")
+
+          echo "Submitting $URL_COUNT URLs to IndexNow..."
+
+          HTTP_STATUS=$(curl -s -o /tmp/indexnow_response.txt -w "%{http_code}" \
+            -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d "$PAYLOAD")
+
+          echo "Response status: $HTTP_STATUS"
+          echo "Response body: $(cat /tmp/indexnow_response.txt)"
+
+          if [ "$HTTP_STATUS" -ge 200 ] && [ "$HTTP_STATUS" -lt 300 ]; then
+            echo "IndexNow notification succeeded. Submitted $URL_COUNT URLs."
+          else
+            echo "IndexNow notification failed with HTTP $HTTP_STATUS"
+            exit 1
+          fi
