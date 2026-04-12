@@ -1,0 +1,34 @@
+---
+layout: null
+permalink: /ja/sitemap.xml
+sitemap: false
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% assign ja_pages = site.pages | where: "lang", "ja" | sort: "url" %}
+  {% for page in ja_pages %}
+    {% unless page.sitemap == false %}
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}{{ page.url }}</loc>
+    {% if page.last_modified_at %}
+    <lastmod>{{ page.last_modified_at | date: "%Y-%m-%dT%H:%M:%SZ" }}</lastmod>
+    {% elsif page.date %}
+    <lastmod>{{ page.date | date: "%Y-%m-%dT%H:%M:%SZ" }}</lastmod>
+    {% endif %}
+  </url>
+    {% endunless %}
+  {% endfor %}
+  {% assign ja_posts = site.posts | where: "lang", "ja" %}
+  {% for post in ja_posts %}
+    {% unless post.sitemap == false %}
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}{{ post.url }}</loc>
+    {% if post.last_modified_at %}
+    <lastmod>{{ post.last_modified_at | date: "%Y-%m-%dT%H:%M:%SZ" }}</lastmod>
+    {% elsif post.date %}
+    <lastmod>{{ post.date | date: "%Y-%m-%dT%H:%M:%SZ" }}</lastmod>
+    {% endif %}
+  </url>
+    {% endunless %}
+  {% endfor %}
+</urlset>

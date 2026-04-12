@@ -123,4 +123,5 @@ User-agent: Webzio-Extended
 Disallow: /
 
 # サイトマップの場所
-Sitemap: https://icdomain.github.io/sitemap.xml
+Sitemap: https://icdomain.github.io/en/sitemap.xml
+Sitemap: https://icdomain.github.io/ja/sitemap.xml
