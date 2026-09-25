@@ -18,7 +18,7 @@ ICD公式サイトへようこそ。
 
 - [観光](/ja/tourism/)
 - [歴史](/ja/history/)
-- [公式記録](/ja/official-records/)
+- [公文書館](/ja/official-records/)
 - [開発者ブログ](/ja/developer-blog/)
 - [アーカイブ](/ja/archives/)
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Official Records
+title: Official Archives
 description: Official records and decrees of the Independent Compute Domain
 permalink: /en/official-records/
 lang: en
@@ -10,11 +10,11 @@ last_modified_at: 2026-04-08
 author: founder
 ---
 
-# Official Records
+# Official Archives
 
 Official decrees, decisions, and documents of the ICD.
 
-## Latest official records
+## Latest records
 
 {% assign official_posts = site.posts | where: "lang", "en" | sort: "date" | reverse %}
 {% assign count = 0 %}
@@ -26,4 +26,4 @@ Official decrees, decisions, and documents of the ICD.
   {% endif %}
 {% endfor %}
 
-[See all official records → Archives](/en/archives/)
+[See all records → Archives](/en/archives/)

@@ -18,7 +18,7 @@ Welcome to the official site of the Independent Compute Domain.
 
 - [Tourism](/en/tourism/)
 - [History](/en/history/)
-- [Official Records](/en/official-records/)
+- [Official Archives](/en/official-records/)
 - [Developer Blog](/en/developer-blog/)
 - [Archives](/en/archives/)
 
