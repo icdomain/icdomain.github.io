@@ -5,8 +5,8 @@ description: "定時点検の手順と 03-Cryolysis の電源制御に対する�
 permalink: /ja/archives/2026/09/29/maintenance-report/
 lang: ja
 alt_lang_url: /en/archives/2026/09/29/maintenance-report/
-date: 2026-09-29T01:50:00Z
-last_modified_at: 2026-09-29T01:50:00Z
+date: 2026-09-29T01:45:00Z
+last_modified_at: 2026-09-29T01:45:00Z
 author: founder
 categories: [official-records]
 tags: [maintenance, node-status]
