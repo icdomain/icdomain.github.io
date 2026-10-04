@@ -34,6 +34,9 @@
 
 <header class="site-header">
   <div class="header-inner">
+    {% if page.url == '/ja/' or page.url == '/en/' %}
+    <span class="beta-mark" style="float:right;margin-right:20px;padding:0 8px;border:1px solid #b5e853;color:#b5e853;">Beta</span>
+    {% endif %}
     <a href="/{{ page.lang }}/" class="site-title">{{ site.title }}</a>
     <nav class="site-nav">
       {% if page.lang == 'ja' %}
