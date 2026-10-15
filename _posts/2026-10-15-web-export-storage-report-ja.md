@@ -4,6 +4,7 @@ title: "Web Export Storage Report — 2026-10-15"
 description: "動議「ChatGPT Web、Claude Web のデータを取得して NAS に格納する」(Royal Assent 2026-10-04) の実施報告。Claude Web は完了、ChatGPT Web は無期限保留。君主の御批を併載。"
 permalink: /ja/archives/2026/10/15/web-export-storage-report/
 lang: ja
+alt_lang_url: /en/archives/2026/10/15/web-export-storage-report/
 date: 2026-10-15T00:41:59Z
 last_modified_at: 2026-10-15T00:41:59Z
 author: founder
