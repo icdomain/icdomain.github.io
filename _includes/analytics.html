@@ -1,0 +1,9 @@
+{% comment %}
+GoatCounter (private pageview analytics, no cookies). Renders nothing until
+`goatcounter_code` is set in _config.yml. The count is shown only in the
+GoatCounter dashboard, never on the site (founder decision 2026-10-25).
+{% endcomment %}
+{% if site.goatcounter_code and site.goatcounter_code != "" %}
+  <script data-goatcounter="https://{{ site.goatcounter_code }}.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+{% endif %}

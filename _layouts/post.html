@@ -8,7 +8,9 @@ layout: default
   </header>
   
   {{ content }}
-  
+
+  {% include comments.html %}
+
   <footer>
     <p><a href="{{ '/blog' | relative_url }}">&larr; go home</a></p>
   </footer>

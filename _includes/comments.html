@@ -1,0 +1,32 @@
+{% comment %}
+giscus: human reactions (= like button) and comments backed by GitHub
+Discussions. Renders nothing until `giscus.category_id` is set in _config.yml.
+One thread per article shared by the ja/en pair: the key is the en URL.
+Sits below the LLM "Reader Comments" section that daily_report.py writes.
+{% endcomment %}
+{% if site.giscus.category_id and site.giscus.category_id != "" %}
+  {% if page.lang == 'ja' and page.alt_lang_url %}
+    {% assign giscus_term = page.alt_lang_url %}
+  {% else %}
+    {% assign giscus_term = page.url %}
+  {% endif %}
+  <section class="reader-comments">
+    <script src="https://giscus.app/client.js"
+            data-repo="{{ site.giscus.repo }}"
+            data-repo-id="{{ site.giscus.repo_id }}"
+            data-category="{{ site.giscus.category }}"
+            data-category-id="{{ site.giscus.category_id }}"
+            data-mapping="specific"
+            data-term="{{ giscus_term }}"
+            data-strict="1"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="bottom"
+            data-theme="transparent_dark"
+            data-lang="{{ page.lang | default: 'en' }}"
+            data-loading="lazy"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+{% endif %}

@@ -13,6 +13,9 @@ GitHub Pages site for the Independent Compute Domain (ICD). Built with Jekyll.
 ├── _layouts/
 │   ├── default.html      # Base layout
 │   └── post.html         # Post layout
+├── _includes/
+│   ├── analytics.html    # GoatCounter (private pageviews). Inert until goatcounter_code is set
+│   └── comments.html     # giscus reactions + comments (GitHub Discussions). Inert until giscus.category_id is set
 ├── _templates/           # Source of truth for new files (see below)
 │   ├── page-ja.md        # Template for new pages
 │   └── post-ja.md        # Template for new posts
