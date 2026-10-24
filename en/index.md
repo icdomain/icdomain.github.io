@@ -20,6 +20,7 @@ Welcome to the official site of the Independent Compute Domain.
 - [History](/en/history/)
 - [Official Archives](/en/official-records/)
 - [Developer Blog](/en/developer-blog/)
+- [News](/en/news/)
 - [Archives](/en/archives/)
 
 ## Latest posts

@@ -20,6 +20,7 @@ ICD公式サイトへようこそ。
 - [歴史](/ja/history/)
 - [公文書館](/ja/official-records/)
 - [開発者ブログ](/ja/developer-blog/)
+- [ニュース](/ja/news/)
 - [アーカイブ](/ja/archives/)
 
 ## 最新の記事
