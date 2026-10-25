@@ -5,7 +5,7 @@ theme: jekyll-theme-hacker
 
 # Reader interaction (2026-10-25). Both blocks render nothing while empty.
 # GoatCounter site code: https://<code>.goatcounter.com (dashboard is private)
-goatcounter_code: ""
+goatcounter_code: "icdomain"
 # giscus: GitHub Discussions on this repo. repo_id from GET /repos/...; category
 # and category_id from https://giscus.app/api/discussions/categories?repo=icdomain/icdomain.github.io
 giscus:
