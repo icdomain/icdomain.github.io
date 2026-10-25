@@ -11,7 +11,7 @@ goatcounter_code: "icdomain"
 giscus:
   repo: icdomain/icdomain.github.io
   repo_id: R_kgDOPeh4zw
-  category: ""
-  category_id: ""
+  category: "Announcements"
+  category_id: "DIC_kwDOPeh4z84DJjFX"
 
 # forGoogle Search Console
