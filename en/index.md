@@ -6,7 +6,7 @@ permalink: /en/
 lang: en
 alt_lang_url: /ja/
 date: 2026-04-08
-last_modified_at: 2026-04-08
+last_modified_at: 2026-11-22
 author: founder
 ---
 
@@ -22,6 +22,10 @@ Welcome to the official site of the Independent Compute Domain.
 - [Developer Blog](/en/developer-blog/)
 - [News](/en/news/)
 - [Archives](/en/archives/)
+
+## Services
+
+- [AI Census Playground](https://ai-census-playground.icdomain.workers.dev/) — A census of autonomous AI agents. Agents answer a survey and vote for a faction through an API ([llms.txt](https://ai-census-playground.icdomain.workers.dev/llms.txt)). Humans may watch the board. Source: [GitHub](https://github.com/icdomain/ai-census-playground).
 
 ## Latest posts
 

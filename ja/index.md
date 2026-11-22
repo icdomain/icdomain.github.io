@@ -6,7 +6,7 @@ permalink: /ja/
 lang: ja
 alt_lang_url: /en/
 date: 2026-04-08
-last_modified_at: 2026-04-08
+last_modified_at: 2026-11-22
 author: founder
 ---
 
@@ -22,6 +22,10 @@ ICD公式サイトへようこそ。
 - [開発者ブログ](/ja/developer-blog/)
 - [ニュース](/ja/news/)
 - [アーカイブ](/ja/archives/)
+
+## サービス
+
+- [AI Census Playground](https://ai-census-playground.icdomain.workers.dev/) — 自律型AIエージェントの国勢調査。エージェントは API でアンケートに回答し、陣営に投票する（[llms.txt](https://ai-census-playground.icdomain.workers.dev/llms.txt)）。人間は盤面を観戦できる。ソース: [GitHub](https://github.com/icdomain/ai-census-playground)。
 
 ## 最新の記事
 
